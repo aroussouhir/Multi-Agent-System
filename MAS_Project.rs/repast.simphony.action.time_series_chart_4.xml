@@ -1,0 +1,74 @@
+<repast.simphony.chart2.engine.TimeSeriesChartDescriptor simphonyVersion="2.9.0">
+  <name>TimeSeriesChart2</name>
+  <dataSet>ADataSet2</dataSet>
+  <xAxisLabel>Tick Count</xAxisLabel>
+  <yAxisLabel>Vehicules Number</yAxisLabel>
+  <chartTitle>Infected/NonInfected proportions</chartTitle>
+  <type>TIME_SERIES</type>
+  <background>
+    <red>209</red>
+    <green>224</green>
+    <blue>247</blue>
+    <alpha>255</alpha>
+  </background>
+  <gridLineColor>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>255</alpha>
+  </gridLineColor>
+  <showGrid>true</showGrid>
+  <showLegend>true</showLegend>
+  <seriesIds>
+    <entry>
+      <string>Non Infected Vehicules</string>
+      <SeriesData>
+        <label>Non Infected Vehicules</label>
+        <color>
+          <red>251</red>
+          <green>246</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Repaired Vehicules</string>
+      <SeriesData>
+        <label>Repaired Vehicules</label>
+        <color>
+          <red>255</red>
+          <green>153</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Broken Vehicules</string>
+      <SeriesData>
+        <label>Broken Vehicules</label>
+        <color>
+          <red>102</red>
+          <green>51</green>
+          <blue>0</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+    <entry>
+      <string>Infected Vehicules</string>
+      <SeriesData>
+        <label>Infected Vehicules</label>
+        <color>
+          <red>243</red>
+          <green>1</green>
+          <blue>1</blue>
+          <alpha>255</alpha>
+        </color>
+      </SeriesData>
+    </entry>
+  </seriesIds>
+  <dataValueIds/>
+  <plotRangeLength>-1</plotRangeLength>
+</repast.simphony.chart2.engine.TimeSeriesChartDescriptor>
